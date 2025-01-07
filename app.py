@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/version', methods=['GET'])
-def about():
+def aboutAnd():
     message = "version 1"
 
     return {'message': message}, 200
