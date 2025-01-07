@@ -12,6 +12,6 @@ def about():
 
 @app.route('/healthz', methods=['GET'])
 def about():
-    message = "healthy"
+    message = "healthy+"
 
     return {'message': message}, 200
