@@ -4,12 +4,11 @@ on:
   push:
     branches:
       - main
+      - dev
 
 env:
   AWS_REGION: eu-west-2
   ECR_REPOSITORY: users # Replace with your repository name
-  MAJOR_VERSION: 0  # Increment this manually when needed
-  MINOR_VERSION: 1  # Increment this manually when needed
 
 permissions:
   id-token: write
