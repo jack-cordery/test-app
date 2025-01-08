@@ -5,13 +5,13 @@ app = Flask(__name__)
 
 @app.route('/version', methods=['GET'])
 def aboutAnd():
-    message = "version 1"
+    message = "version dev"
 
     return {'message': message}, 200
 
 
 @app.route('/healthz', methods=['GET'])
 def about():
-    message = "healthy+"
+    message = "healthy"
 
     return {'message': message}, 200
